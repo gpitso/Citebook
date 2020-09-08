@@ -1,0 +1,18 @@
+.flex-container {
+    display: flex; /* or inline-flex */
+    flex-direction: column;
+    flex-wrap: wrap;
+    float:left;
+    width:25%;
+    margin-right:0% 0% 0% 0%;
+  }
+
+.flex-container-mid{
+    width:50% !important;
+}
+
+.koutakia-apostasi{
+    padding-bottom: 0%;
+}
+    
+

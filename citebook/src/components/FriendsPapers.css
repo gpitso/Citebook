@@ -1,0 +1,93 @@
+.titlerow{
+    font-size: x-large;
+    padding-left:3.2% !important;
+    padding-bottom:2.5% !important;
+    color:rgb(122, 53, 53);
+    font-weight: bold;
+    text-decoration: underline;
+    display: inline;
+}
+
+.buttond2{
+    background-color:rgba(122, 53, 53, 0.157) !important;
+    color: rgb(122, 53, 53) !important;
+    width:5vh;
+    height:5vh;
+    margin-top: 0.3% !important;
+}
+
+.citation{
+    color:grey;
+}
+
+.koutakias{
+    display: inline-block;
+}
+
+.likes{
+    padding-top:2%;
+    padding-left: 1%;
+}
+
+.line{
+    margin-left: 0.6% !important;
+    margin-top: 0.5% !important;
+    width: 94.5vh;
+    height: 47px;
+    border-bottom: 1px solid grey;
+    position: absolute;
+}
+
+.citate{
+    color: white;
+    font-size: x-large;
+    text-align: center !important;
+    background-color: rgb(122, 53, 53);
+    width: 100%;
+    margin-left: 2.7%;
+    padding-top:0.5%;
+}
+
+.buttonaki:hover{
+    background-color:grey !important;
+ }
+
+ .buttonaki{
+     height:100%;
+ }
+
+
+.likebutton{
+    padding-top:1% !important;
+}
+
+.btn:disabled{ 
+    background-color:grey !important;
+}
+
+.titlespan{
+    display: inline;
+}
+
+.leftright{
+    margin:0% 0% 0% 0%!important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.line2{
+    height:1vh !important;
+    margin-left: 1.5%;
+    margin-bottom: 0.8%;
+    width: 94vh;
+    border-bottom: 1px solid grey;
+}
+
+.line3{
+    height:1vh !important;
+    margin-left: 1.5%;
+    width: 94vh;
+    border-bottom: 1px solid grey;
+    margin-top:3%;
+}
+

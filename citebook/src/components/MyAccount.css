@@ -1,0 +1,64 @@
+.flex-container1 {
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    /* float:left; */
+    height: 100%;
+    margin-right:0% 0% 0% 0%;
+    background-color: rgb(87, 33, 33);
+    width:30%;
+    height:100%;
+  }
+
+  .flex-container2 {
+    /* float:left; */
+    height: 100%;
+    margin-right:0% 0% 0% 0%;
+    background-color: rgb(87, 33, 33);
+    width:70%;
+    height:100%;
+  }
+
+  .bigbox{
+    display: flex; /* or inline-flex */
+    width: 80%;
+    background-color: rgb(87, 33, 33);
+    border: white 1px solid;
+    margin:0 auto;
+  }
+
+  .photochange{
+      width:65%;
+      border: white 1px solid;
+      margin-left:17%;
+      margin-top:8%;
+      height:40vh;
+  }
+
+  .button1{
+    color:rgb(122, 53, 53) !important; 
+    background-color:white !important; 
+    border-radius: 20%;
+    left:-6%;
+    position: relative;
+    top: -20%
+  }
+
+  .boxinputs{
+      margin-top: 3.3%;
+      color:white;
+  }
+
+  .margin-inputs{
+    margin-left:0% !important;
+  }
+
+  .button{
+    margin: 5% 0% 0% 6.7%;
+    color: white;
+  }
+
+  .FirstNameForm{
+    margin-top:3% !important;
+  }
+

@@ -1,0 +1,22 @@
+.container2{
+  width:100%;
+  height:100%;
+  position: fixed;
+  background-image: url(../bookswall.jpg);
+  background-size: 100% 100%;
+  text-align:center;
+  display: flex;
+  align-items: center;
+}
+
+.incontainer{
+  background:lightgray;
+  opacity:90%;
+  color:white;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.Welcome{
+  opacity:100%;
+}

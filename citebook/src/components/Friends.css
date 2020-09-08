@@ -1,0 +1,25 @@
+.FriendsTitlebar{
+    background-image: linear-gradient(rgb(175, 76, 76),rgb(119, 25, 25));
+    width:80%;
+    margin:0 auto;
+    text-align: center;
+    font-size: xx-large;
+    color:white;
+    font-weight: bold;
+    border: solid 1px white;
+}
+
+.Friendsbar{
+    height:100%;
+    background-color: rgb(119, 25, 25);
+    width:80%;
+    margin:0 auto;
+    border: solid 1px white;
+}
+
+.Friendbox{
+    background-color: white;
+    border: solid 1px white;
+    width:80% !important;
+    margin:0 auto !important;
+}

@@ -1,0 +1,88 @@
+.flexbox {
+   display: -webkit-flex;
+   display: -ms-flexbox;
+   display: flex;
+   overflow: hidden;
+   height:923px;
+   
+ }
+
+ .flexbox .col {
+   height:100%;
+   width:100%;
+   flex: 1;
+   padding:0;
+ }
+
+ .flexbox .col:nth-child(1) {
+   background: rgb(122, 53, 53);
+   order: 1;
+ }
+ .flexbox .col:nth-child(2) {
+   background: rgb(122, 53, 53);
+   order: 0;
+   position: relative;
+
+ }
+
+ .welcomebox{
+   margin: 29% 0 0 0;
+   background: rgba(0, 0, 0, 0.8);
+   font-size: xx-large !important;
+   text-align: center;
+   padding-top:4.7%;
+   width: 80%;
+   height: 30%;
+   position: absolute;
+   color: white;
+   font-weight: bold;
+   font-size: 40px;
+   top: 25px;
+   left:75px;
+ }
+
+ .welcomebox2{
+     color:white;
+     padding-top:4%;
+     font-weight: normal;
+     font-size: x-large !important;
+ }
+
+ .titleCite{
+     color:white;
+     margin-top: 6% !important;
+     font-weight: bold;
+     font-size: xx-large;
+ }
+
+ .titleCite2{
+     font-weight: normal;
+     color:white;
+ }
+
+ .ContainerBoxr{
+     background-color: rgb(175, 76, 76);
+     width:60px !important;
+     margin: 7% 0% 0 21%;
+   }
+
+   .form-control{
+       height:60px !important;
+       width:90% !important;
+       display: block;
+       margin : 0 auto;
+   }
+
+   .LoginButton{
+       width: 90% !important;
+       margin-bottom: 7% !important;
+   }
+
+   .interests{
+      height:130px !important;
+   }
+
+   .imgupload{
+     margin-top:4% !important;
+     margin-left:4.5%;
+   }

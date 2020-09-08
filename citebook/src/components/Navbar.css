@@ -1,0 +1,26 @@
+.options{
+margin-left: 81.5%;
+}
+
+.nav-link1.active{
+    color: rgb(173, 3, 3);
+    font-weight: bold;
+}
+
+.xrwmanav{
+    background-color:white !important;
+    color:linear-gradient(rgb(119, 49, 49),rgb(87, 33, 33)) !important;
+}
+
+.navbar-brand{
+    color:white;
+}
+
+.headers{
+    color:rgb(87, 33, 33);
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    color: rgb(255, 71, 71); 
+  } 

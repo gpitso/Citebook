@@ -1,0 +1,71 @@
+
+  .bigbox{
+    display: flex; /* or inline-flex */
+    width: 80%;
+    background-color: white;
+    border: white 1px solid;
+    margin:0 auto;
+    height:75%;
+  }
+
+flex-container11 {
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    float:left;
+    height: 100%;
+    margin-right:0% 0% 0% 0%;
+    background-color: white;
+    width:50%;
+  }
+
+  .photochange{
+ 
+    width:80%;
+    border: white 1px solid;
+    margin-left:7%;
+}
+
+  .flex-container22 {
+    margin:0.5% 2% 0% 0%;
+    background-color: white;
+    width:100% !important;
+  }
+
+  .boxinputs2{
+      width:100% !important;
+      color:white;
+      align:left;
+  }
+
+  .titlakia{
+      color:black;
+      font-weight: bold;
+      display:inline-block;
+  }
+
+  .gap{
+      width:20px;
+      background:none;
+      display:inline-block;
+    }
+
+  .gapheight{
+      margin-top:5%;
+      color:black;
+  }
+
+  .uploadbutton11{
+    margin-left:0%;
+    display: table-cell;
+  }
+
+  .uploadbutton33{
+    display: table-cell;
+    margin-left:70%;
+  }
+
+  .uploadbuttons11{
+    top:500% !important;
+    display:inline-block;
+  }

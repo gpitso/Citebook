@@ -1,0 +1,22 @@
+.textpopup{
+    width:100%;
+    font-size: x-large;
+    text-align: center;
+    color:rgb(87, 33, 33);
+    margin-top:12%;
+}
+
+.text2popup{
+    width:100%;
+    font-size: x-large;
+    text-align: center;
+    color:rgb(87, 33, 33);
+}
+
+
+.uploadbuttons12{
+    margin: 14% auto!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,81 @@
+.barupload{
+        display: table;
+        width: 100%; /*Optional*/
+        table-layout: fixed; /*Optional*/      
+}
+.profpicin{
+        display: table-cell;
+        margin-right:0%;
+        padding: 1% 0% 1% 1%;
+        width:10%;
+}
+
+.inputbar{
+        display: table-cell;
+        margin-right:100px !important;
+        width:70%;
+}
+
+.uploadbutton{
+        padding-left:4%;
+        display: table-cell;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        padding-left: 10px;
+
+      }
+      ::-moz-placeholder { /* Firefox 19+ */
+        padding-left: 10px;
+
+      }
+      :-ms-input-placeholder { /* IE 10+ */
+        padding-left: 10px;
+
+      }
+      :-moz-placeholder { /* Firefox 18- */
+        padding-left: 10px;
+
+}
+
+.modal {
+        font-size: 12px;
+      }
+      .modal > .header {
+        width: 100%;
+        border-bottom: 1px solid gray;
+        font-size: 18px;
+        text-align: center;
+        padding: 5px;
+      }
+      .modal > .content {
+        width: 100%;
+        padding: 10px 5px;
+      }
+      .modal > .actions {
+        width: 100%;
+        padding: 10px 5px;
+        margin: auto;
+        text-align: center;
+      }
+      .modal > .close {
+        cursor: pointer;
+        position: absolute;
+        display: block;
+        padding: 2px 5px;
+        line-height: 20px;
+        right: -10px;
+        top: -10px;
+        font-size: 24px;
+        background: #ffffff;
+        border-radius: 18px;
+        border: 1px solid #cfcece;
+      }
+
+      .friendbar{
+        text-align: center;
+        font-size: xx-large;
+        padding: 3% 0% 3% 0%;
+        color:rgb(87, 33, 33);
+      }
+      

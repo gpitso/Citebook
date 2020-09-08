@@ -1,0 +1,114 @@
+.flexbox {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    height:94.5vh !important;
+    
+  }
+
+  .flexbox .col {
+    height:100%;
+    width:100%;
+    flex: 1;
+    padding:0;
+  }
+
+  .flexbox .col:nth-child(1) {
+    background: rgb(122, 53, 53);
+    order: 1;
+  }
+  .flexbox .col:nth-child(2) {
+    background: #eee;
+    order: 0;
+    position: relative;
+
+  }
+
+  .welcomebox{
+    margin: 29% 0 0 0;
+    background: rgba(0, 0, 0, 0.8);
+    font-size: xx-large !important;
+    text-align: center;
+    padding-top:4.7%;
+    width: 80%;
+    height: 30%;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    top: 25px;
+    left:75px;
+  }
+
+  .welcomebox2{
+      color:white;
+      padding-top:4%;
+      font-weight: normal;
+      font-size: x-large !important;
+  }
+
+  .titleCite{
+      color:white;
+      margin-top: 6% !important;
+      font-weight: bold;
+      font-size: xx-large;
+  }
+
+  .titleCite2{
+      font-weight: normal;
+      color:white;
+  }
+
+  .ContainerBox{
+      background-color: rgb(175, 76, 76);
+      width:60px !important;
+      margin: 25% 0% 0 21%;
+    }
+
+    .form-control{
+        height:60px !important;
+        width:90% !important;
+        display: block;
+        margin : 0 auto;
+    }
+
+    .LoginButton{
+        width: 90% !important;
+        margin-bottom: 7% !important;
+    }
+
+    #connect-orcid-button{
+      border: 1px solid rgba(0, 0, 0, 0.541);
+      padding: .8em;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 1px 1px 3px #999;
+      cursor: pointer;
+      color: #999;
+      font-weight: bold;
+      font-size: .8em;
+      line-height: 24px;
+      vertical-align: middle;
+      margin-right:13% !important;
+    }
+    
+    #connect-orcid-button:hover{
+      border: 1px solid #338caf;
+      color: #338caf;
+    }
+    
+    #orcid-id-icon{
+      display: block;
+      margin: 0 .5em 0 0;
+      padding: 0;
+      float: left;
+    }
+
+    .google{
+      width:20%;
+    }
+
+    .margin-bot{
+      margin-bottom: 10%;
+    }

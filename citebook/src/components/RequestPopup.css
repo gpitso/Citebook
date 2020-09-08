@@ -1,0 +1,39 @@
+.sameline{
+    display:inline;
+}
+
+.requestbox{
+    flex: 1;
+    margin-top: 2%;
+}
+
+.div1{
+    font-size: x-large !important;
+    padding-left:5%;
+    margin-top:2%;
+    
+}
+
+.buttond{
+    margin-left:5% !important;
+}
+
+.uploadbuttons1{
+    margin-top: 5%;
+}
+
+.uploadbuttons12{
+    margin-top:50% !important;
+    margin-left:4.7% !important;
+
+    width:90% !important;
+}
+
+.popupcss2{
+    display: flex;
+      flex-direction: column;
+      flex: 1;
+      overflow: auto;
+      min-height: 50vh;
+
+    }
