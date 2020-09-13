@@ -71,7 +71,7 @@ export default class PendingPapers extends Component {
             <div style={{"position":"fixed","overflow":"auto","height":"100%","width":"100%","backgroundColor":"rgb(122, 53, 53)"}}>
                 <LoggedInNavbar id={this.state.user_id} choice={4}/>
                 <div className="FriendsTitlebar">
-                My Papers
+                My Papers (Not active yet)
                 </div>
                 <Grid style={{"backgroundColor":"white","margin":"0 auto 5% auto","width":"80%","border":"1px solid white"}}>
                 {this.state.papers && this.state.papers.map((e, idx) => <PendingUploadedBox venue={e.venue} id={this.state.user_id} citatedby={e.citatedby} declared_citations={e.declared_citations} handler2={this.handler2} papers={this.state.papers} handler={this.handler} paperid={e._id} active={e.active} link={e.link} pending={e.pending} points={e.citation_points} id={e.user_id} likes={e.likes} title={e.title} photo={papernull} date={e.publish_timer} descr={e.description} key={idx}/>)}

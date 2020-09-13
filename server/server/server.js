@@ -20,7 +20,7 @@
 	const router = express.Router();
 	const port = process.env.PORT || 5001;
 
-	app.use(bodyParser.json({limit: '500kb'}));
+	app.use(bodyParser.json({limit: '1500kb'}));
 	app.use(bodyParser.urlencoded({ extended: true }));
 
 	var uri = "mongodb://localhost:27017/Citebook";
